@@ -35,10 +35,11 @@ class MollieApiClientManager
     public function client()
     {
         $mollie = new \Mollie_API_Client();
-        $mollie->setApiKey($this->config['apiKeys']['live']);
 
         if ($this->config['testMode']) {
             $mollie->setApiKey($this->config['apiKeys']['test']);
+        } else {
+            $mollie->setApiKey($this->config['apiKeys']['live']);
         }
 
         return $mollie;
