@@ -1,3 +1,5 @@
+# THIS PROJECT IS NO LONGER MAINTAINED OR UP TO DATE. USE THE OFFICIAL [mollie/laravel-mollie](https://github.com/mollie/laravel-mollie) PACKAGE
+
 # laravel-mollie
 
 This is a package to integrate [Mollie](https://github.com/mollie/mollie-api-php) with Laravel.
@@ -46,5 +48,4 @@ To use the Facade (`\Mollie::getMethods()` instead of `App::make('mollie')->getM
 ```
     
 ## Credits
-
-- [Bert van Hoekelen][https://github.com/BertvanHoekelen]
+- [Bert van Hoekelen](https://github.com/BertvanHoekelen)
